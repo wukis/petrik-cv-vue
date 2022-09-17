@@ -1,5 +1,5 @@
 // import default boostrap styles
-@import '~bootstrap/scss/alert';
+@import "~bootstrap/scss/alert";
 
 @each $color, $value in $theme-colors {
   .alert-#{$color} {

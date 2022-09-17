@@ -1,5 +1,5 @@
 // import default boostrap styles
-@import '~bootstrap/scss/carousel';
+@import "~bootstrap/scss/carousel";
 
 .carousel-control-prev,
 .carousel-control-next {
@@ -25,7 +25,7 @@
   margin: $spacer 0 0 0;
 
   &::before {
-    content: '';
+    content: "";
     position: absolute;
     left: 0;
     right: 0;

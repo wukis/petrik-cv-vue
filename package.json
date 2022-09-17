@@ -5,16 +5,18 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "pretty": "prettier --ignore-unknown --write ./src"
   },
   "dependencies": {
-    "bootstrap": "^4.6.2",
+    "bootstrap": "4.4.1",
     "core-js": "^3.8.3",
     "vue": "^3.2.13",
     "vue-router": "^4.0.3",
     "vuex": "^4.0.0"
   },
   "devDependencies": {
+    "@types/jquery": "^3.5.14",
     "@typescript-eslint/eslint-plugin": "^5.4.0",
     "@typescript-eslint/parser": "^5.4.0",
     "@vue/cli-plugin-babel": "~5.0.0",
@@ -28,6 +30,7 @@
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-vue": "^8.0.3",
+    "jquery": "^3.6.1",
     "lint-staged": "^11.1.2",
     "prettier": "^2.4.1",
     "sass": "^1.32.7",

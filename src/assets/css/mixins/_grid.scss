@@ -1,4 +1,8 @@
-@mixin make-grid-gutters($gutter: $grid-gutter-width, $columns: $grid-columns, $breakpoints: $grid-breakpoints) {
+@mixin make-grid-gutters(
+  $gutter: $grid-gutter-width,
+  $columns: $grid-columns,
+  $breakpoints: $grid-breakpoints
+) {
   .container-fluid-limited,
   .container-fluid {
     padding-right: $gutter / 2;

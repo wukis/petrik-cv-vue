@@ -1,5 +1,5 @@
 // import default boostrap styles
-@import '~bootstrap/scss/buttons';
+@import "~bootstrap/scss/buttons";
 
 .btn {
   text-transform: uppercase;
@@ -26,12 +26,32 @@
 
 @each $color, $value in $theme-colors {
   .btn-#{$color} {
-    @include custom-button-variant($value, transparent, $value, $body-bg, $value, $value, $body-bg, $value, $value);
+    @include custom-button-variant(
+      $value,
+      transparent,
+      $value,
+      $body-bg,
+      $value,
+      $value,
+      $body-bg,
+      $value,
+      $value
+    );
   }
 }
 
 @each $color, $value in $theme-colors {
   .btn-outline-#{$color} {
-    @include custom-button-variant($value, transparent, $value, $body-bg, $value, $value, $body-bg, $value, $value);
+    @include custom-button-variant(
+      $value,
+      transparent,
+      $value,
+      $body-bg,
+      $value,
+      $value,
+      $body-bg,
+      $value,
+      $value
+    );
   }
 }

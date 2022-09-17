@@ -4,7 +4,7 @@
   padding-left: $border-width / 2;
 
   &::before {
-    content: '';
+    content: "";
     position: absolute;
     width: 0;
     left: $border-width / 2;
@@ -14,7 +14,7 @@
   }
 
   &::after {
-    content: '';
+    content: "";
     position: absolute;
     width: $border-width * 2;
     height: $border-width * 2;
@@ -82,7 +82,7 @@
   margin-bottom: map-get($spacers, 10);
 
   &::before {
-    content: '';
+    content: "";
     position: absolute;
     width: 0;
     left: 0;

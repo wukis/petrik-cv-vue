@@ -332,7 +332,7 @@
                 <div class="col-6 col-lg-3">
                   <a href="#" class="logo-link">
                     <img
-                      src="assets/img/reference.svg"
+                      src="../assets/img/reference.svg"
                       class="logo-img"
                       alt="Reference 1"
                     />
@@ -341,7 +341,7 @@
                 <div class="col-6 col-lg-3">
                   <a href="#" class="logo-link">
                     <img
-                      src="assets/img/reference.svg"
+                      src="../assets/img/reference.svg"
                       class="logo-img"
                       alt="Reference 2"
                     />
@@ -350,7 +350,7 @@
                 <div class="col-6 col-lg-3">
                   <a href="#" class="logo-link">
                     <img
-                      src="assets/img/reference.svg"
+                      src="../assets/img/reference.svg"
                       class="logo-img"
                       alt="Reference 3"
                     />
@@ -359,7 +359,7 @@
                 <div class="col-6 col-lg-3">
                   <a href="#" class="logo-link">
                     <img
-                      src="assets/img/reference.svg"
+                      src="../assets/img/reference.svg"
                       class="logo-img"
                       alt="Reference 4"
                     />
@@ -368,7 +368,7 @@
                 <div class="col-6 col-lg-3">
                   <a href="#" class="logo-link">
                     <img
-                      src="assets/img/reference.svg"
+                      src="../assets/img/reference.svg"
                       class="logo-img"
                       alt="Reference 5"
                     />
@@ -377,7 +377,7 @@
                 <div class="col-6 col-lg-3">
                   <a href="#" class="logo-link">
                     <img
-                      src="assets/img/reference.svg"
+                      src="../assets/img/reference.svg"
                       class="logo-img"
                       alt="Reference 6"
                     />
@@ -386,7 +386,7 @@
                 <div class="col-6 col-lg-3">
                   <a href="#" class="logo-link">
                     <img
-                      src="assets/img/reference.svg"
+                      src="../assets/img/reference.svg"
                       class="logo-img"
                       alt="Reference 7"
                     />
@@ -395,7 +395,7 @@
                 <div class="col-6 col-lg-3">
                   <a href="#" class="logo-link">
                     <img
-                      src="assets/img/reference.svg"
+                      src="../assets/img/reference.svg"
                       class="logo-img"
                       alt="Reference 8"
                     />

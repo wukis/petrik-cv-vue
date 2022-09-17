@@ -1,5 +1,5 @@
 // import default boostrap styles
-@import '~bootstrap/scss/card';
+@import "~bootstrap/scss/card";
 
 .card {
   border: 0;
@@ -45,7 +45,7 @@
   color: $gray-400;
 
   &::before {
-    content: '#';
+    content: "#";
     font-size: $h2-font-size;
   }
 }

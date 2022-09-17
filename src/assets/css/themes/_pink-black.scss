@@ -20,15 +20,15 @@ $black: #000;
 $grays: ();
 $grays: map-merge(
   (
-    '100': $gray-100,
-    '200': $gray-200,
-    '300': $gray-300,
-    '400': $gray-400,
-    '500': $gray-500,
-    '600': $gray-600,
-    '700': $gray-700,
-    '800': $gray-800,
-    '900': $gray-900,
+    "100": $gray-100,
+    "200": $gray-200,
+    "300": $gray-300,
+    "400": $gray-400,
+    "500": $gray-500,
+    "600": $gray-600,
+    "700": $gray-700,
+    "800": $gray-800,
+    "900": $gray-900,
   ),
   $grays
 );
@@ -47,19 +47,19 @@ $cyan: #0a9cb4;
 $colors: ();
 $colors: map-merge(
   (
-    'blue': $blue,
-    'indigo': $indigo,
-    'purple': $purple,
-    'pink': $pink,
-    'red': $red,
-    'orange': $orange,
-    'yellow': $yellow,
-    'green': $green,
-    'teal': $teal,
-    'cyan': $cyan,
-    'white': $white,
-    'gray': $gray-600,
-    'gray-dark': $gray-800,
+    "blue": $blue,
+    "indigo": $indigo,
+    "purple": $purple,
+    "pink": $pink,
+    "red": $red,
+    "orange": $orange,
+    "yellow": $yellow,
+    "green": $green,
+    "teal": $teal,
+    "cyan": $cyan,
+    "white": $white,
+    "gray": $gray-600,
+    "gray-dark": $gray-800,
   ),
   $colors
 );
@@ -72,9 +72,9 @@ $danger: $red;
 $theme-colors: ();
 $theme-colors: map-merge(
   (
-    'primary': $primary,
-    'success': $success,
-    'danger': $danger,
+    "primary": $primary,
+    "success": $success,
+    "danger": $danger,
   ),
   $theme-colors
 );
@@ -82,7 +82,7 @@ $theme-colors: map-merge(
 $body-bg: $pink;
 $body-color: $black;
 
-$link-color: theme-color('primary');
+$link-color: theme-color("primary");
 $link-decoration: none;
 $link-hover-color: rgba($link-color, 0.75);
 $link-hover-decoration: underline;
@@ -104,7 +104,7 @@ $border-color: $gray-200;
 $breadcrumb-bg: transparent;
 $breadcrumb-divider-color: $gray-600;
 $breadcrumb-active-color: $gray-600;
-$breadcrumb-divider: quote('/');
+$breadcrumb-divider: quote("/");
 
 // Cards
 //
@@ -180,7 +180,8 @@ $nav-tabs-border-color: $body-color;
 $nav-tabs-link-hover-border-color: transparent;
 $nav-tabs-link-active-color: $body-color;
 $nav-tabs-link-active-bg: $body-bg;
-$nav-tabs-link-active-border-color: $body-color $body-color $nav-tabs-link-active-bg;
+$nav-tabs-link-active-border-color: $body-color $body-color
+  $nav-tabs-link-active-bg;
 $nav-pills-link-active-color: $body-bg;
 
 // Navbar
