@@ -11,7 +11,7 @@
   overflow: hidden;
 
   &::after {
-    content: "";
+    content: '';
     position: absolute;
     left: 0;
     right: 0;
@@ -31,8 +31,7 @@
   &.animation-translate-overline,
   .animation-translate-overline {
     &::after {
-      animation: animation-translate-overline 0.15s $cubic-bezier-transition
-        forwards;
+      animation: animation-translate-overline 0.15s $cubic-bezier-transition forwards;
     }
   }
 

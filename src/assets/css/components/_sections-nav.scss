@@ -29,9 +29,7 @@
   }
 
   @media (min-width: #{1680px + $grid-gutter-width}) {
-    left: calc(
-      ((100% - 1680px) / 2) + #{1680px / 12 * 9 + $grid-gutter-width / 2}
-    );
+    left: calc(((100% - 1680px) / 2) + #{1680px / 12 * 9 + $grid-gutter-width / 2});
     width: (1680px / 12 * 3) - $grid-gutter-width;
   }
 }
@@ -90,7 +88,7 @@
   overflow: hidden;
 
   &::before {
-    content: "";
+    content: '';
     position: absolute;
     width: 0;
     left: 0;
@@ -136,7 +134,7 @@
   transition: color 0.15s ease-in-out;
 
   &::before {
-    content: "";
+    content: '';
     position: absolute;
     width: 0;
     left: 0;

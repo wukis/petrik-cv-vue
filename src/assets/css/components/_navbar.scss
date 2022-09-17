@@ -1,5 +1,5 @@
 // import default boostrap styles
-@import "../../../node_modules/bootstrap/scss/navbar";
+@import '~bootstrap/scss/navbar';
 
 .navbar {
   border-bottom: $border-width solid $gray-200;

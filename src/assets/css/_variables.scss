@@ -81,11 +81,9 @@ $grid-gutter-width: 60px;
 // Typography
 //
 
-$font-family-sans-serif: Montserrat, -apple-system, blinkmacsystemfont,
-  "segoe ui", roboto, "helvetica neue", arial, "noto sans", sans-serif,
-  "apple color emoji", "segoe ui emoji", "segoe ui symbol", "noto color emoji";
-$font-family-monospace: sfmono-regular, menlo, monaco, consolas,
-  "liberation mono", "courier new", monospace;
+$font-family-sans-serif: Montserrat, -apple-system, blinkmacsystemfont, 'segoe ui', roboto, 'helvetica neue', arial,
+  'noto sans', sans-serif, 'apple color emoji', 'segoe ui emoji', 'segoe ui symbol', 'noto color emoji';
+$font-family-monospace: sfmono-regular, menlo, monaco, consolas, 'liberation mono', 'courier new', monospace;
 $font-family-base: $font-family-sans-serif;
 
 $font-size-base: 1rem; // assumes the browser default, typically `16px`
@@ -210,8 +208,7 @@ $btn-border-radius: $border-radius;
 $btn-border-radius-lg: $border-radius-lg;
 $btn-border-radius-sm: $border-radius-sm;
 
-$btn-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
-  border-color 0.15s ease-in-out;
+$btn-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 
 // Badges
 //

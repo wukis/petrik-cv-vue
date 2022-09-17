@@ -1,5 +1,5 @@
 // import default boostrap styles
-@import "../../../node_modules/bootstrap/scss/popover";
+@import '~bootstrap/scss/popover';
 
 .popover-header {
   border-bottom: $popover-border-width - 1 solid $gray-100;
