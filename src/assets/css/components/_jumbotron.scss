@@ -3,9 +3,9 @@
 
 .jumbotron-img {
   display: block;
-  width: 10rem;
-  height: 10rem;
-  border-radius: 5rem;
+  width: 20rem;
+  height: 20rem;
+  border-radius: 10rem;
   border: $border-width solid $body-color;
   margin-bottom: map-get($spacers, 9);
 }
