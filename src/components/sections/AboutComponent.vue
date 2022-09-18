@@ -10,32 +10,42 @@
           </h2>
           <article class="article animation-translate animation-item-2">
             <p>
-              I'm freelance webdeveloper lorem ipsum dolor sit amet, consetetur
-              sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
-              et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
-              accusam et justo duo dolores et ea rebum. Stet clita kasd
-              gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-              nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-              erat, sed diam voluptua. At vero eos et accusam et justo duo
-              dolores et ea rebum.
+              Experienced software engineer with a demonstrated history of
+              working in the web development industry and a Bachelor's degree
+              focused in Software Engineering. Skilled in: PHP (Laravel,
+              Symfony), SQL / MongoDB, Javascript (NodeJS, ES6, React, Redux,
+              VueJS, Vuex).
             </p>
             <p>
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-              nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-              erat, sed diam voluptua. At vero eos et accusam et justo duo
-              dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
-              sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit
-              amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-              invidunt ut labore et dolore magna.
+              I believe that anyone can fix a problem or develop a specific
+              solution, but my 8+ years of experience as a full stack developer
+              has taught me beyond this. Don't just build around clients
+              requirements and patch barely working system, but design a
+              solution that is scalable, flexible, reliable and maintainable,
+              open for interoperability and longstanding.
             </p>
-            <p>
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-              nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-              erat, sed diam voluptua. At vero eos et accusam et justo duo
-              dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
-              sanctus est Lorem ipsum dolor sit amet.
-            </p>
+            More than 10 years of experience in software engineering:
+            <ul>
+              <li>9+ years PHP/Symfony/Laravel/Zend/Laminas</li>
+              <li>
+                8+ years of Javascript: NodeJS, ES6, ReactJS, Redux, Jest,
+                VueJS, Vuex, Express
+              </li>
+            </ul>
+
+            Being a senior developer, my primary job is to:
+            <ul>
+              <li>
+                Listen to client requirements, create a vision and draw big
+                picture
+              </li>
+              <li>
+                Determine best possible plan for execution (backend and
+                frontend)
+              </li>
+              <li>Measure possible risk factors and environment limitations</li>
+              <li>Consider future scalability and scope</li>
+            </ul>
           </article>
         </div>
       </div>
