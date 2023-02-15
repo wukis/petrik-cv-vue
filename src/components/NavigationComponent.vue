@@ -66,8 +66,8 @@
       </li>
       <li class="sections-nav-item">
         <div class="sections-nav-info">
-          <a href="mailto:john@wilson.com">john@wilson.com</a><br />
-          <a href="tel:+420652887351">+420 652 887 351</a>
+          <a href="mailto:jonas@petrik.dev">jonas@petrik.dev</a><br />
+          <a href="tel:+491785119617">+49 178 511 9617</a>
         </div>
       </li>
     </ul>
