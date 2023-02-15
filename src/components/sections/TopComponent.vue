@@ -1,9 +1,10 @@
+<script setup>
+import SectionComponent from "./SectionComponent.vue";
+</script>
+
 <template>
-  <section
-    id="section-01"
-    class="section section-sub-header animation interaction-in"
-  >
-    <div class="section-body">
+  <SectionComponent :section-number="1">
+    <template #body>
       <div class="jumbotron jumbotron-fluid pt-6 pt-lg-8 pb-0 mb-0">
         <div class="row">
           <div class="col-md-4">
@@ -25,13 +26,6 @@
           </div>
         </div>
       </div>
-    </div>
-    <div class="section-footer animation-translate animation-item-4">
-      <a class="section-next goto-section" href="#section-02">
-        <span class="section-next-counter">01/10</span>
-        <span class="section-next-label">Next chapter</span>
-        <span class="section-next-icon"></span>
-      </a>
-    </div>
-  </section>
+    </template>
+  </SectionComponent>
 </template>

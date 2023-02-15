@@ -1,12 +1,16 @@
+<script setup>
+import SectionComponent from "./SectionComponent.vue";
+</script>
+
 <template>
-  <section id="section-02" class="section animation">
-    <div class="section-body">
+  <SectionComponent :section-number="2">
+    <template #body>
       <div class="row">
         <div class="col col-xl-10">
           <h2
             class="section-title animation-translate-overline animation-item-1"
           >
-            About me
+            About
           </h2>
           <article class="article animation-translate animation-item-2">
             <p>
@@ -49,13 +53,6 @@
           </article>
         </div>
       </div>
-    </div>
-    <div class="section-footer animation-translate animation-item-3">
-      <a class="section-next goto-section" href="#section-03">
-        <span class="section-next-counter">02/10</span>
-        <span class="section-next-label">Next chapter</span>
-        <span class="section-next-icon"></span>
-      </a>
-    </div>
-  </section>
+    </template>
+  </SectionComponent>
 </template>
